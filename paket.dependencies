@@ -1,0 +1,11 @@
+source https://www.nuget.org/api/v2
+storage:none
+
+nuget Fable.Core
+nuget Fable.Import.Node
+nuget Fable.Import.Browser
+nuget Fable.React
+
+group Build
+  source https://nuget.org/api/v2
+  nuget FAKE
