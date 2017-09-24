@@ -5,7 +5,8 @@
     <TargetFramework>netstandard1.6</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="./Fable.Helpers.OfficeUIFabricReact.IconName.fs" />
+    <Compile Include="./IconName.fs" />
+    <Compile Include="./Common.fs" />
     <Compile Include="./Fable.Helpers.OfficeUIFabricReact.fs" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />

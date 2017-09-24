@@ -9,3 +9,7 @@ nuget Fable.React
 group Build
   source https://nuget.org/api/v2
   nuget FAKE
+
+group Dev
+  source https://nuget.org/api/v2
+  nuget FantomasCLI
